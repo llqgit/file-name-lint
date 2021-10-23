@@ -7,6 +7,9 @@
   },
   "name": "file-name-lint",
   "main": "index.mjs",
+  "bin": {
+    "file-name-lint": "index.mjs"
+  },
   "scripts": {
     "start": "node index.mjs"
   },
